@@ -103,3 +103,49 @@ aside h3 {
     color: #2d89ef;
     margin-bottom: 10px;
 }
+
+/* Toggle Button Styling */
+#darkModeToggle {
+    background-color: white;
+    color: #2d89ef;
+    border: 2px solid #2d89ef;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+#darkModeToggle:hover {
+    background-color: #2d89ef;
+    color: white;
+}
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #111;
+    color: #eee;
+}
+
+body.dark-mode .content,
+body.dark-mode .hero,
+body.dark-mode aside {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+}
+
+body.dark-mode nav ul li a {
+    color: #f0f0f0;
+}
+
+body.dark-mode nav ul li a:hover {
+    text-decoration: underline;
+}

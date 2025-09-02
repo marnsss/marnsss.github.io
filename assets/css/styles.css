@@ -82,6 +82,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 footer {
     background-color: #2d89ef;
     color: white;
@@ -149,6 +150,17 @@ body.dark-mode nav ul li a:hover {
     text-decoration: underline;
 }
 
+
+.certificate-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
 @media screen and (max-width: 768px) {
     .container {
         width: 90%;
@@ -187,15 +199,6 @@ body.dark-mode nav ul li a:hover {
     aside {
         padding: 15px 10px;
     }
-
-    .certificate-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 
     #darkModeToggle {
         float: none;
